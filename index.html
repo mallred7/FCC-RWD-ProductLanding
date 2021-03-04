@@ -5,31 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Product Landing Page</title>
+    <title>Herb Ertlinger Winery</title>
 </head>
 
 <body>
     <header id="header">
         <img src="" alt="header image" id="header-img">
-        <nav>
+        <nav id="nav-bar">
             <a href="#sign-up" class="nav-link">Sign Up</a>
-            <a href="" class="nav-link">Link 2</a>
-            <a href="" class="nav-link">Link 3</a>
+            <a href="#about" class="nav-link">About Us</a>
+            <a href="#moira" class="nav-link">Latest Offerings</a>
         </nav>
     </header>
     <div>
         <section id="sign-up">
-            <form action="">
-                <input type="email" placeholder="Enter your email address" id="email">
-                <input type="submit" value="Find Out More">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input name="email" type="email" placeholder="Enter your email address" id="email">
+                <input type="submit" value="Find Out More" id="submit"
+                    formaction="https://www.freecodecamp.com/email-submit">
             </form>
         </section>
-        <section>
+        <section id="about">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/jVojhvifruk" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
+                allowfullscreen id="video"></iframe>
         </section>
-        <section>
+        <section id="moira">
+            <div class="product">
+                <div>Strawberry Peach</div>
+                <h1>$20</h1>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Pairs well with Amoxicillin</li>
+                </ol>
+            </div>
+            <div class="product">
+                <div>Groundfruit Blend</div>
+                <h1>$20</h1>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Notes of tomato</li>
+                </ol>
+            </div>
+            <div class="product">
+                <div>Banana Rose</div>
+                <h1>$20</h1>
+                <ol>
+                    <li>Lorem ipsum</li>
+                    <li>Rich in potassium</li>
+                </ol>
+            </div>
 
         </section>
 
