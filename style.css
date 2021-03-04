@@ -2,7 +2,29 @@ body {
     background: white;
 }
 
+.main {
+    margin-top: 50px;
+}
+
 #moira {
     display: flex;
     flex-direction: row;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-color: lavender;
+}
+
+#nav-bar {
+    float: right;
+}
+
+@media (max-width: 100px) {
+    #header {
+        background-color: rosybrown;
+    }
 }
